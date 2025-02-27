@@ -1,0 +1,78 @@
+@media only screen and (min-width:100px) {
+    .backtxt
+    {
+visibility: hidden; 
+   }
+}
+@media only screen and (min-width:350px) {
+    .uptotxt h2
+    {
+        font-size: 12px;
+    }
+    /* .backgroundimg1 h1 {
+        font-size: 20px;
+    } */
+    .backtxt
+    {
+visibility: hidden; 
+   }
+   .count-down-counter li {
+    display: inline-block;
+    font-size: .875rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: var(--bg-white);
+    border-radius: 0.313rem;
+    padding: 1rem 1rem;
+    width: 40%;
+    margin: 5px 0.313rem;
+}
+    
+}
+@media only screen and (min-width:450px) {
+    .uptotxt h2
+    {
+        font-size: 16px;
+        
+    }
+    .count-down-counter li {
+        display: inline-block;
+        font-size: .875rem;
+        font-weight: bold;
+        text-align: center;
+        background-color: var(--bg-white);
+        border-radius: 0.313rem;
+        padding: 1rem 1rem;
+        width: 20%;
+        margin: 0 0.313rem;
+    }
+}
+@media only screen and (min-width:768px) {
+    .uptotxt h2
+    {
+        font-size: 25px;
+    }
+}
+@media only screen and (min-width:1000px) {
+    .uptotxt h2
+    {
+        font-size:30px;
+    }
+}
+@media only screen and (min-width:992px) {
+    .offers .offer-box .offertxt .offerheading {
+    font-size: 3.5rem;
+    
+    }
+}
+@media only screen and (min-width:1050px) {
+    .backtxt
+    {
+        /* display: flex;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-120%, 10%); */
+        visibility: visible;
+    }
+}
